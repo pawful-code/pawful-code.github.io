@@ -21,12 +21,12 @@ permalink: /:categories/:title
 excerpt_separator: "[-----]"
 
 url: # Required: replace this with your domain
-name: textalic # Required: will be displayed on every page's header
+name: Pawful-read # Required: will be displayed on every page's header
 title: site title # Required: site's default title
 shout: # Required: **TWO** lines, will be displayed on page's header.
   - one liner one...
   - one liner two...
-description: "Some short description on your site" # Required
+description: "Reading Review with Software Engineering" # Required
 
 disqus:
   comments: false # Global toggle on/off disqus comment
@@ -51,7 +51,9 @@ collections: # Define post series here
     output: true
   demo_series_2:
     output: true
-
+  Book_Review:
+    output: true
+    
 defaults:
   - scope:
       path: ""
