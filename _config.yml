@@ -49,6 +49,8 @@ google_analytics:
 collections: # Define post series here
   clean_architecture:
     output: true
+  The_psychology_of_computer_programming:
+    output: true
     
 defaults:
   - scope:
